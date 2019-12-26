@@ -1,0 +1,24 @@
+{
+  "movies": [
+    {
+      "id": 0,
+      "title": "Leon, The Professional",
+      "description": "lorem ipsum",
+      "image": "123"
+    }
+  ],
+  "users": [
+    {
+      "username": "Administrador",
+      "email": "admin@admin.com",
+      "password": "admin",
+      "id": 0
+    },
+    {
+      "username": "Fernando",
+      "email": "luisfer.0793@gmail.com",
+      "password": "fer123",
+      "id": 1
+    }
+  ]
+}

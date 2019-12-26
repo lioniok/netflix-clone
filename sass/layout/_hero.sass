@@ -1,0 +1,20 @@
+.hero
+    height: 100vh
+    background-image: linear-gradient(to right bottom, rgba(10, 20, 43, .85), rgba(15, 20, 32, .85)), url('../img/bg.jpg')
+    background-size: cover
+    background-position: top center
+    background-repeat: no-repeat
+    color: $color-primary-white
+    &__title
+        padding: 10rem 0
+        font-size: 6rem
+        text-align: center
+    &__button
+        margin: 10rem auto 0
+        text-transform: uppercase
+        border-radius: .5rem
+        color: $color-primary-white
+        background-color: $color-primary-red
+        transition: background-color ease 250ms
+        &:hover
+            background-color: lighten($color-primary-red, 20%)

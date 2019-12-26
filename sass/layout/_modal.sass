@@ -1,0 +1,63 @@
+.modal
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    opacity: 0
+    z-index: -1
+    background-color: transparentize($color-primary-black, .1)
+    transition: all 350ms linear
+    &__box
+        position: absolute
+        padding: 7rem 10rem
+        top: 50%
+        left: 50%
+        z-index: 10
+        text-align: center
+        border-radius: .5rem
+        background-color: transparentize($color-primary-white, .2)
+        transform: translate(-50%, -50%)
+        &-close
+            position: absolute
+            top: 2rem
+            right: 2rem
+            font-size: 3.5rem
+            font-weight: 600
+            cursor: pointer
+            color: $color-primary-red
+    &__title
+        font-weight: 600
+        text-transform: uppercase
+    &__form
+        display: flex
+        margin-top: 3rem
+        flex-direction: column
+        align-items: center
+        &-label
+            margin: 4rem 0 1rem
+            font-weight: 500
+            font-size: 1.4rem
+            text-transform: uppercase
+        &-input
+            width: 100%
+            padding: .5rem 0
+            font-family: inherit
+            font-size: 1.3rem
+            text-align: center
+            outline: none
+            border: none
+            background-color: transparent
+            border-bottom: .1rem solid $color-secondary-black
+            transition: border-bottom-color linear 250ms
+            &:focus
+                border-bottom-color: $color-primary-green
+        &-button
+            margin-top: 3rem
+            text-transform: uppercase
+            border-radius: .5rem
+            color: $color-primary-white
+            background-color: $color-primary-red
+            transition: background-color 250ms linear
+            &:hover
+                background-color: lighten($color-primary-red, 20%)
