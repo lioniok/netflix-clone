@@ -1,0 +1,25 @@
+{
+  "name": "netflix-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "start": "nodemon routes.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisfer0793/netflix-clone.git"
+  },
+  "author": "Luis Fernando Jimenez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luisfer0793/netflix-clone/issues"
+  },
+  "homepage": "https://github.com/luisfer0793/netflix-clone#readme"
+}
